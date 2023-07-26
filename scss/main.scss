@@ -1,8 +1,8 @@
 @import 'partial/shared';
 @import 'partial/mixin';
-
 // @import '/partial/variable';
 
 
 @import 'home/nav';
-// @import '/home/slide';
+@import 'home/slide';
+@import 'home/section';

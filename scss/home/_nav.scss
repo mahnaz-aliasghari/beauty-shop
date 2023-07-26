@@ -1,10 +1,19 @@
-.nav{
-@include flexBox(center,space-between,row);
+.nav {
+    @include flexBox(center, space-between, row);
+    padding: 5px;
 
-&__logo{
-    width: 100px;
-    >img{
-        width: 100%;
+    &__logo {
+        width: 150px;
+
+        >img {
+            width: 100%;
+        }
     }
+    &__link{
+        display: none;
+    }
+&__icon{
+color: purple;
+
 }
 }
