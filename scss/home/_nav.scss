@@ -1,0 +1,10 @@
+.nav{
+@include flexBox(center,space-between,row);
+
+&__logo{
+    width: 100px;
+    >img{
+        width: 100%;
+    }
+}
+}
